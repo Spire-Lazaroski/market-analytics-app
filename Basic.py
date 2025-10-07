@@ -548,7 +548,7 @@ def main():
             st.switch_page("pages/Markets.py")
     with col2:
         if st.button("🔄 Dynamic Analysis", use_container_width=True):
-            st.switch_page("pages/Advanced_markets.py")
+            st.switch_page("pages/Advanced markets.py")
 
     if lt_file and map_file:
         # Load data
@@ -809,3 +809,4 @@ if __name__ == "__main__":
     main()
 
     
+
