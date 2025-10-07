@@ -545,10 +545,10 @@ def main():
     col1, col2 = st.sidebar.columns(2)
     with col1:
         if st.button("📊 Market Lab", use_container_width=True):
-            st.switch_page("pages/markets.py")
+            st.switch_page("pages/Markets.py")
     with col2:
         if st.button("🔄 Dynamic Analysis", use_container_width=True):
-            st.switch_page("pages/advanced_markets.py")
+            st.switch_page("pages/Advanced_markets.py")
 
     if lt_file and map_file:
         # Load data
@@ -807,4 +807,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
     
